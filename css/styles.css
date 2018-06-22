@@ -30,7 +30,7 @@ h1 {
 .no-js #experience-timeline>div h3 {
     font-size:1.5em;
     font-weight:300;
-    color:#374054;
+    color:#a3a9ad;
     display:inline-block;
     margin:0}.no-js #experience-timeline>div h4{
         font-size:1.2em;
@@ -40,7 +40,7 @@ h1 {
     }
     
 .no-js #experience-timeline>div p {
-    color:#74808a;
+    color:#a3a9ad;
     font-size:0.9em;
     margin:0
 }
@@ -146,7 +146,7 @@ footer{
 }
 .copyright p{
    margin:0;
-   color:#74808a
+   color:#a3a9ad
 }
 .top{
    text-align:center
@@ -162,7 +162,7 @@ footer{
    text-align:center
 }
 .top i{
-   color:#74808a
+   color:#a3a9ad
 }
 .social{
    text-align:right
@@ -178,7 +178,7 @@ footer{
 }
 .social a{
    display:block;
-   color:#74808a;
+   color:#a3a9ad;
    padding:10px
 }
 .social a:hover{
@@ -432,14 +432,14 @@ footer{
    font-weight:500;
    float:left;
    margin:0;
-   color:#74808a
+   color:#a3a9ad
 }
 .education-block span{
-   color:#74808a;
+   color:#a3a9ad;
    float:right
 }
 .education-block h4{
-   color:#74808a;
+   color:#a3a9ad;
    clear:both;
    font-weight:500;
    margin:0 0 15px 0
@@ -465,19 +465,14 @@ footer{
    position:relative;
    max-width:900px;
    margin:0 auto 30px auto;
+   padding:15px;
    overflow:hidden;
    background:#1a1c1f;
    border-radius:4px
 }
-.project-image{
-   float:left
-}
 .project-info{
-   position:absolute;
-   top:50%;
-   transform:translateY(-50%);
-   margin-left:300px;
-   padding:15px
+   padding:10px;
+   overflow: hidden
 }
 .project-info h3{
    font-size:1.5em;
@@ -486,7 +481,7 @@ footer{
    margin:0 0 15px 0
 }
 .project-info p{
-   color:#74808a;
+   color:#a3a9ad;
    margin:0 0 15px 0;
    font-size:0.9em
 }
@@ -496,6 +491,36 @@ footer{
    padding:30px 15px;
    transform:none
 }
+.project-small{
+    position:relative;
+    max-width:900px;
+    margin:0 auto 30px auto;
+    padding:0px;
+    overflow:hidden;
+    background:#1a1c1f;
+    border-radius:4px
+ }
+.project-small-image{
+    float: left;
+}
+.project-info-small{
+   position:absolute;
+   top:50%;
+   transform:translateY(-50%);
+   margin-left:300px;
+   padding:15px
+}
+.project-info-small h3{
+    font-size:1.5em;
+    font-weight:300;
+    color:white;
+    margin:0 0 15px 0
+ }
+ .project-info-small p{
+    color:#a3a9ad;
+    margin:0 0 15px 0;
+    font-size:0.9em
+ }
 #more-projects{
    display:none
 }
@@ -504,7 +529,7 @@ footer{
    text-align:center
 }
 #skills h2{
-   color:#374054;
+   color:#a3a9ad;
    margin-bottom:50px
 }
 #skills ul{
@@ -517,7 +542,7 @@ footer{
    display:inline-block;
    margin:7px;
    padding:5px 10px;
-   color:#374054;
+   color:#a3a9ad;
    background:#e4e4ea;
    list-style:none;
    cursor:default;
@@ -605,7 +630,7 @@ footer{
    border-top:1px solid #dcd9d9
 }
 .optional-section h2{
-   color:#374054
+   color:#a3a9ad
 }
 .optional-section-block{
    max-width:700px;
@@ -618,17 +643,17 @@ footer{
 .optional-section-block h3{
    font-weight:500;
    margin:0 0 15px 0;
-   color:#374054
+   color:#a3a9ad
 }
 .optional-section-block h4{
-   color:#74808a;
+   color:#a3a9ad;
    clear:both;
    font-weight:500;
    margin:0 0 15px 0
 }
 .optional-section-block p,.optional-section-block ul{
    margin:0 0 15px 0;
-   color:#74808a;
+   color:#a3a9ad;
    font-size:0.9em
 }
 .optional-section-block ul{
