@@ -554,8 +554,11 @@ footer{
 }
 #contact {
    padding:50px 15px;
-   background:#3498db;
-   text-align:center
+   background:#1a1c1f;
+   text-align:center;
+   max-width:900px;
+   margin:0 auto 30px auto;
+   border:1px solid #131313;
 }
 #contact h2 {
    margin:0 0 15px 0;
@@ -573,7 +576,7 @@ footer{
    border-radius:4px;
    border:none;
    margin-bottom:10px;
-   background:#1d6fa5;
+   background:#000000;
    color:#fff;
    transition:.5s ease all
 }
@@ -593,7 +596,8 @@ footer{
 }
 #contact-form input:focus,#contact-form textarea:focus{
    outline:none;
-   background:#16527a
+   background:#2f3133; 
+   border:1px solid #1d6fa5;
 }
 #contact-form textarea{
    height:150px;
@@ -602,17 +606,17 @@ footer{
 #contact-form button{
    display:block;
    width:100%;
-   background:#fff;
+   background:#1d6fa5;
    border-radius:4px;
-   padding:5px 10px;
+   padding:10px 10px;
    border:none;
-   color:#3498db;
+   color:#fff;
    font-weight:700;
    box-shadow:0 1px 3px rgba(0,0,0,0.12),0 1px 2px rgba(0,0,0,0.24);
    transition:.5s ease all
 }
 #contact-form button:hover{
-   box-shadow:0 10px 20px rgba(0,0,0,0.19),0 6px 6px rgba(0,0,0,0.23)
+   box-shadow:0 10px 20px rgba(0,0,0,0.19),0 6px 6px rgba(0, 0, 0, 0.23)
 }
 #education table {
     font-family: arial, sans-serif;
@@ -832,10 +836,6 @@ main {
     cursor: pointer;
     border: 1px solid #ddd;
   }
-
-  input {
-    visibility:hidden;
-}
   
   input:checked + label {
     border: 0px solid #ddd;
@@ -844,7 +844,14 @@ main {
     color: white;
     background: #1d6fa5
   }
-  
+
+  #tab1,
+  #tab2,
+  #tab3,
+  #tab4 {
+    visibility:hidden;
+  }
+
   #tab1:checked ~ #content1,
   #tab2:checked ~ #content2,
   #tab3:checked ~ #content3,
