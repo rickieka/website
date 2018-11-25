@@ -256,7 +256,7 @@ footer{
 .centerDiv
 {
    color: white;
-   width: 100%;
+   max-width: 900px;
    margin: 0 auto;
    background-color:#1a1c1f ;
 }
