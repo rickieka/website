@@ -12,6 +12,7 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" 
     rel="stylesheet"  type='text/css'>    <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/styles.css" rel="stylesheet">
+    <link href="css/styles.scss" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script>
             $(document).ready(function() {
@@ -267,16 +268,25 @@
                 <div id="education">
                     <div class="education-block">
                         <h3>Contact information</h3><br><br>
+
                         <table>
-                            <tr>
-                                <th>Name</th>
-                                <th>Rickie Karp</th>
-                            </tr>
-                            <tr>
-                                <td>E-Mail</td>
-                                <td>contact@rickiekarp.net</td>
-                            </tr>
-                        </table>
+                                <col width="100">
+                                <col width="150">
+                                <col width="100">
+                                <tr>
+                                  <td>Name</td>
+                                  <td>Rickie Karp</td>
+                                  <td></td>
+                                </tr>
+                                <tr>
+                                  <td>E-Mail</td>
+                                  <td><input class="inputCopy" type="text" value="contact@rickiekarp.net" id="myInput" readonly></td>
+                                  <td><button class="btn btn-primary" onclick="copy()"><i class="fa fa-clipboard" aria-hidden="true"></i></button></td>
+                                </tr>
+                              </table>
+
+
+
                         <br><br><p align="center">If you would like to meet me in person or have any other questions, feel free to contact me!</p><br>
                     </div>
                     <!-- End .education-block -->
@@ -293,7 +303,7 @@
     </footer>
 
     <script src="js/scripts.min.js"></script>
-
+    <script src="js/addons/copy.js"></script>
 </body>
 
 </html>
