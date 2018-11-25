@@ -18,6 +18,8 @@ h1 {
     padding: 10px 0;
     font-weight: 400;
     text-align: center;
+    font-size: 2em;
+    margin: 0.67em 0;
   }
 
 .no-js #experience-timeline>div{
@@ -52,7 +54,6 @@ h1 {
 .row {
     margin-left: 0px;
     margin-right: 0px;
-
 }
 
 .column {
@@ -168,13 +169,15 @@ footer{
 .copyright{
    padding-top:20px
 }
-.copyright p{
+.copyright p {
    margin:0;
    color:#a3a9ad
 }
-.row-back p a{
+.row-back {
     color:#a3a9ad;
     font-size:1.5em;
+    margin-top: 10px;
+    margin-bottom: 10px;
  }
 .top{
    text-align:center
@@ -192,6 +195,41 @@ footer{
 .top i{
    color:#a3a9ad
 }
+
+.centerDiv
+{
+   color: white;
+   width: 100%;
+   margin: 0 auto;
+   background-color:#1a1c1f ;
+}
+.card-image-left
+{
+   width: 30%;
+   height: 100%;
+   background-color:#1a1c1f ;
+   float:left;
+}
+.card-content-right
+{
+   width: 70%;
+   background-color:#1a1c1f ;
+   float:right;
+   flex: 1 1 auto;
+   padding: 1rem;
+}
+
+.card {
+   color: #ffffff;
+   background: #1a1c1f;
+   min-width: 900px;
+}
+
+.card-img-top {
+   height: auto;
+   min-height: 100%;
+}
+
 .social{
    text-align:right
 }
@@ -437,13 +475,14 @@ footer{
    font-weight:300;
    color:#fff
 }
-#education{
+#education {
+   width: 100%;
    padding:50px 15px 20px 15px;
    border-bottom:0px solid #dcd9d9;
    text-align:center;
    background: #111111;
 }
-#education h2{
+#education h2 {
    color:#dcd9d9;
    margin-bottom:50px
 }
@@ -490,7 +529,7 @@ footer{
 }
 .project{
    position:relative;
-   max-width:900px;
+   width:900px;
    margin:0 auto 30px auto;
    padding:15px;
    overflow:hidden;
